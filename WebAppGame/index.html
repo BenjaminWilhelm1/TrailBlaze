@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailblaze - Endless Runner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+</head>
+<body>
+    <h1 class="neon-text">TRAILBLAZE</h1>
+    <div id="game-container"></div>
+    <div class="ui-panel">
+        <div>
+            <button id="location-btn" class="neon-button">Use My Location</button>
+            <button id="music-btn" class="neon-button">Music: OFF</button>
+        </div>
+        <div>
+            <span class="neon-text">High Score: <span id="high-score">0</span></span>
+        </div>
+    </div>
+    
+    <!-- Game script after Phaser is loaded -->
+    <script src="game.js"></script>
+</body>
+</html>
